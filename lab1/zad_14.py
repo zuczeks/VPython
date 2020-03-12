@@ -1,4 +1,4 @@
-#4 
+# Describe the given number in terms of parity and being the prime number
 def numberDesc():
     nb = input('Podaj liczbe:')
     if nb % 2 == 0:

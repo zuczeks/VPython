@@ -1,4 +1,4 @@
-#3
+# Lists four first perfect numbers
 def perfNumber():
     count = 0 
     i = 0

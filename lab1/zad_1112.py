@@ -1,4 +1,4 @@
-#1
+# The list sum without using the range() and sum() operator
 def listSum(mylist):
     _sum = 0
     for x in mylist:
@@ -9,7 +9,7 @@ def listSum(mylist):
 
 listSum([1,8,3])
 
-#2
+# The list product without using the range() and sum() operator
 def listProduct(mylist):
     prod = 1
     for x in mylist:

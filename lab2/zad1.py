@@ -1,3 +1,6 @@
+# The function myPI is to estimate PI using Liebniz equation
+# The result is written to the file zad1.txt, estimating PI number with progressive precision
+
 import math
 
 def myPI(i): 

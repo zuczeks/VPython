@@ -1,9 +1,13 @@
+# The function myPI is to estimate PI using probability 
+# The result is written to the file zad1.txt, estimating PI number with progressive precision
+
+# Theorem:
+# We are are shooting to the square with the inscribed circle. The quotient of shots made to the circle and all shots equals approximately the quotient of the circle surface and the square surface, which equals PI for the circle of radius 1.
+
 import random
 import math
 
-#lista strzalow
 shots = []
-#czy strzaly sa trafione w kolo
 incircle = []
 
 def shot(i):
