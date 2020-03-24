@@ -1,3 +1,19 @@
+'''
+ZnaleŸæ trójki liczb spe³niaj¹ce równanie
+a**2 + b**2 = c**2
+gdzie a, b i c to s¹ liczby naturalne (1,2,3,..).
+np. jedna trójka to a=3, b=4, c=5. Rzeczywiœcie, 9 + 16 = 25.
+ZnaleŸæ wszystkie trójki pod warunkiem, ¿e
+1 <= a <= 100 oraz
+1 <= b <= 100 oraz
+a >= b.
+
+Rozwi¹zaæ ten sam problem dla:
+a**3 + b**3 = c**3
+a**4 + b**4 = c**4
+a**5 + b**5 = c**5
+'''
+
 import math
 
 f = open("Trios.txt", "w")
